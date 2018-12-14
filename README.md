@@ -1,4 +1,3 @@
-# Base ruby project
+# Array of Things API in Ruby
 
-Base ruby project with my prefered rspec setup and basic folder structure.
-
+The arrary of things is a network of open sourced sensors.  This project provides an abastraction over the API in Ruby.
