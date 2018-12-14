@@ -1,14 +1,13 @@
-source "http://rubygems.snc1"
+source "http://rubygems.org"
 
 gem "awesome_print"
 gem "httparty"
 gem "logger"
 
 group :development do
-  gem "byebug"
+  gem "pry"	
   gem "guard", :require => false
   gem "guard-rspec", :require => false
-  gem "pry-byebug"
   gem "rubocop", :require => false
 end
 
