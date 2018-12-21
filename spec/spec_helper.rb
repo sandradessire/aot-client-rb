@@ -2,6 +2,7 @@ app_root = File.expand_path(File.join(__dir__, "..", ".."))
 $LOAD_PATH.unshift(app_root) unless $LOAD_PATH.include?(app_root)
 
 require "pry"
+require "awesome_print"
 
 RSpec.configure do |config|
   config.order = "random"
